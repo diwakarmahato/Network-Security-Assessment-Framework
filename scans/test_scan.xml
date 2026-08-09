@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nmaprun scanner="nmap" version="7.98">
+
+    <host>
+        <status state="up"/>
+
+        <address
+            addr="192.168.56.101"
+            addrtype="ipv4"/>
+
+        <ports>
+
+            <port protocol="tcp" portid="22">
+                <state state="open"/>
+
+                <service
+                    name="ssh"
+                    product="OpenSSH"
+                    version="8.2"/>
+            </port>
+
+            <port protocol="tcp" portid="80">
+                <state state="open"/>
+
+                <service
+                    name="http"
+                    product="Apache httpd"
+                    version="2.4.41"/>
+            </port>
+
+            <port protocol="tcp" portid="445">
+                <state state="open"/>
+
+                <service
+                    name="microsoft-ds"
+                    product="Samba"
+                    version="4.13"/>
+            </port>
+
+            <port protocol="tcp" portid="3306">
+                <state state="open"/>
+
+                <service
+                    name="mysql"
+                    product="MySQL"
+                    version="8.0"/>
+            </port>
+
+        </ports>
+    </host>
+
+</nmaprun>

@@ -1,0 +1,34 @@
+[
+    {
+        "type": "High Packet Volume",
+        "source": "192.168.1.104",
+        "evidence": "10831 packets observed",
+        "severity": "Medium",
+        "confidence": "Low",
+        "recommendation": "Review the destination and application associated with this traffic."
+    },
+    {
+        "type": "High Packet Volume",
+        "source": "52.104.53.25",
+        "evidence": "13118 packets observed",
+        "severity": "Medium",
+        "confidence": "Low",
+        "recommendation": "Review the destination and application associated with this traffic."
+    },
+    {
+        "type": "High Destination Diversity",
+        "source": "192.168.1.104",
+        "evidence": "153 unique destinations",
+        "severity": "Medium",
+        "confidence": "Low",
+        "recommendation": "Review whether the host normally communicates with this many destinations."
+    },
+    {
+        "type": "High Port Diversity",
+        "source": "192.168.1.1",
+        "evidence": "284 destination ports contacted",
+        "severity": "Medium",
+        "confidence": "Low",
+        "recommendation": "Investigate whether this represents normal application activity or scanning."
+    }
+]

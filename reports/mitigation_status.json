@@ -1,0 +1,26 @@
+{
+    "192.168.1.104:135/tcp": {
+        "status": "Open",
+        "updated_at": "2026-08-09T19:01:04",
+        "finding": "Open msrpc service detected.",
+        "mitigation": "Confirm that the service is required and restrict access where possible."
+    },
+    "192.168.1.104:139/tcp": {
+        "status": "Open",
+        "updated_at": "2026-08-09T19:01:04",
+        "finding": "Open netbios-ssn service detected.",
+        "mitigation": "Confirm that the service is required and restrict access where possible."
+    },
+    "192.168.1.104:445/tcp": {
+        "status": "Open",
+        "updated_at": "2026-08-09T19:01:04",
+        "finding": "SMB service is exposed to the network.",
+        "mitigation": "Restrict SMB access to trusted hosts and disable unnecessary SMB services."
+    },
+    "192.168.1.104:2869/tcp": {
+        "status": "Open",
+        "updated_at": "2026-08-09T19:01:04",
+        "finding": "HTTP web management service is exposed.",
+        "mitigation": "Prefer HTTPS for administrative interfaces and review authentication configuration."
+    }
+}
